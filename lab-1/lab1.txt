@@ -4,3 +4,8 @@ odp: iac-labs/.github/workflows/
 Pytanie 2: Czy jest to ta sama metoda instalowania zależności?
 odp: tak
 
+Ile czasu github-actions runnera sumarycznie zużyłeś podczas tworzenia środowiska CI?
+odp:13s
+
+Jaki jest limit miesięczny minut przydzielony w planie darmowym dla dewelopera?
+odp: 2000 minut
