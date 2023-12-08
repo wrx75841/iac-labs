@@ -1,0 +1,6 @@
+Pytanie 1: W jakim katalogu github sugeruje tworzenie konfiguracji do uruchamiania CI/CD?
+odp: iac-labs/.github/workflows/
+
+Pytanie 2: Czy jest to ta sama metoda instalowania zależności?
+odp: tak
+
