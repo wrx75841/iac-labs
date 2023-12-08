@@ -1,3 +1,10 @@
+Repo:
+
+https://github.com/wrx75841/iac-labs
+
+
+
+
 Pytanie 1: W jakim katalogu github sugeruje tworzenie konfiguracji do uruchamiania CI/CD?
 odp: iac-labs/.github/workflows/
 
@@ -9,3 +16,35 @@ odp:13s
 
 Jaki jest limit miesięczny minut przydzielony w planie darmowym dla dewelopera?
 odp: 2000 minut
+
+Jaka jest różnica między job a step?
+
+Job:
+
+Najwyższy poziom abstrakcji w konfiguracji GitHub Actions.
+Reprezentuje niezależne zadanie do wykonania w workflow.
+Może być uruchamiany równolegle.
+Step:
+
+Najniższy poziom abstrakcji w konfiguracji GitHub Actions.
+Składa się z pojedynczego kroku wykonywanego w ramach danego joba.
+Odpowiada za konkretną operację, np. pobranie kodu, instalację zależności.
+
+Dlaczego wykorzystujemy mechanizm cache zamiast duplikować cały kod?
+
+Mechanizm cache w GitHub Actions jest stosowany w celu szybszego wykonania workflow poprzez przechowywanie wyników poprzednich operacji, co eliminuje konieczność ponownego pobierania czy instalowania tych samych danych. To pozwala na oszczędność czasu i zasobów, zamiast duplikowania całego kodu przy każdym uruchomieniu zadania.
+
+
+
+
+
+
+
+
+W jakim celu budowanie kodu jest przydatne?
+
+Proces budowania kodu jest niezbędny w cyklu życia oprogramowania, umożliwiając kompilację, zarządzanie zależnościami, testowanie, tworzenie wersji i wprowadzanie optymalizacji, co przyczynia się do skutecznego dostarczania i utrzymania oprogramowania.
+
+
+Pytanie: Czy modyfikacje github actions są potrzebne, by uzyskać ciągle wdrażanie w tym przypadku?
+tak
